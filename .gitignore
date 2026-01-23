@@ -1,0 +1,46 @@
+# macOS system files
+.DS_Store
+
+# Xcode/Swift Package Manager build artifacts
+.build/
+.swiftpm/
+DerivedData/
+
+# Test output files
+test_metrics.json
+*.test-output
+
+# Xcode user data
+xcuserdata/
+*.xcuserstate
+*.xcworkspace
+
+# Swift Package resolution file
+Package.resolved
+
+# Temporary or secret files
+.env
+.netrc
+patch-*
+
+# Python-related (if scripting/tools are used)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ruff_cache/
+.mypy_cache/
+
+# Node-related (if using JS tooling)
+node_modules/
+.parcel-cache/
+dist/
+
+# VSCode settings
+.vscode/
+
+# Docs or generated content
+doc/html/
+local/
+
+# Avoid redundant entries
+# (e.g., .build and .swiftpm are already covered above)
